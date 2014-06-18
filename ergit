@@ -1,0 +1,3 @@
+#!/bin/bash
+# Use for testing
+find . -type d -name .git -exec sh -c "cd \"{}\"/../ && pwd && echo git $1" \;
